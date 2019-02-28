@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Working Setup for ECR and ECS with Force Deployment');
+  res.send('Hello World, testing restart task automatically');
 });
 
 var server = app.listen(3000, function () {
